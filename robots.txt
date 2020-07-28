@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://mikiblog.ink/baidusitemap.xml
+Sitemap: https://mikiblog.ink/sitemap.xml

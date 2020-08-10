@@ -1,4 +1,6 @@
-﻿User-agent: *
+User-agent: *
 Allow: /
-Sitemap: https://mikiblog.ink/baidusitemap.xml
-Sitemap: https://mikiblog.ink/sitemap.xml
+sitemap:https://mikiblog.ink.rthe.net/sitemap.xml
+sitemap:https://mikiblog.ink.rthe.net/baidusitemap.xml
+sitemap:https://mikiblog.ink/sitemap.xml
+sitemap:https://mikiblog.ink/baidusitemap.xml

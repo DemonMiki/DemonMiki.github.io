@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mikiblog.ink/gg.html</loc>
+    
+    <lastmod>2020-08-10T11:14:04.837Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mikiblog.ink/PY.html</loc>
     
     <lastmod>2020-08-10T10:49:07.774Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://mikiblog.ink/youxi.html</loc>
     
     <lastmod>2020-08-07T08:31:04.691Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mikiblog.ink/gg.html</loc>
-    
-    <lastmod>2020-08-07T07:28:14.843Z</lastmod>
     
   </url>
   

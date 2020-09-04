@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css" />
+    <style type="text/css">
+      body{width: 100%;height: 100%;margin: 0;padding: 0;}
+      body, .p1, .p2 {font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif;line-height: 24px;font-size: 20px;}
+      .bg{background-image: url('https://ae01.alicdn.com/kf/Ha2a69c9d2f3e41078c9ce486c7a9a2cbZ.png');background-size: 100%;height: 736px;margin: 0 auto;float: none;}
+      .avatar{padding: 294px 29px 120px 29px;}
+      .avatar img{width: 99px;height: 99px;border-radius:100%;border: solid 5px rgba(255, 255, 255, 0.5);}
+      .avatar #nan{float: left;}
+      .avatar #nv{float: right;}
+      .text-center{text-align: center;}
+      .btn{color: #fff;font-size: 24px;padding: 10px 120px;border: 1px solid #f8f8f8;border-radius: 10px;}
+      .btn:hover{background: #9B59B6; border: 0 none;color: #fff;}
+      .btn:visited {color: #fff;border: 1px solid #f8f8f8;}
+      .btn:active{background: #1BA1E2; border: 0 none;color: #fff;}
+    </style>
+    <!--AEINK出品-->
+  <meta name="generator" content="Hexo 4.2.1"></head>
+
+  <body>
+    <div class="layui-row">  
+      <div class="layui-col-xs12 layui-col-sm6 layui-col-md4 bg float-center">
+        <div class="avatar">
+            <img id="nan" src="http://q.qlogo.cn/headimg_dl?dst_uin=55516228&spec=100&t=55516228">
+            <img id="nv" src="http://q.qlogo.cn/headimg_dl?dst_uin=3517271618&spec=100&t=3517271618">
+        </div>
+        <div class="text-center"><p>我们相恋了</p><p id="elapseClock"></p></div>
+        <div class="text-center" style="margin-top: 120px;">
+          <a class="btn">甜蜜双击</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://www.layuicdn.com/layui/layui.js"></script>
+    <script type="text/javascript" src="https://apis.map.qq.com/tools/geolocation/min?key=5VYBZ-G2KH3-BJ332-3NPKN-JUNNJ-ZHBQE&referer=优启梦用户探测"></script>
+    <!--您的Layui代码start-->
+    <script type="text/javascript">
+    layui.use(['layer'], function() {
+      var $ = layui.$
+      ,layer = layui.layer;
+
+      $(document).ready(function() {
+        layer.msg('欢迎来到我们的小窝！');
+        var together = new Date();
+        together.setFullYear(2020,7,29);   //时间年月日
+        together.setHours(2);            //小时  
+        together.setMinutes(2);          //分钟
+        together.setSeconds(0);          //秒前一位
+        together.setMilliseconds(0);     //秒第二位
+
+        timeElapse(together);
+        setInterval(function () {
+          timeElapse(together);
+        }, 1000);
+        
+        $('.btn').click(function(event) {
+          console.log('test');
+          layer.msg('感谢祝福');
+          //window.location.href='';
+        });
+         
+      });
+      var geolocation = new qq.maps.Geolocation();
+      var options = {timeout: 3000};
+      console.log(_DEFAULT_CITY);
+      function timeElapse(date){
+        var current = Date();
+        var seconds = (Date.parse(current) - Date.parse(date)) / 1000;
+        var days = Math.floor(seconds / (3600 * 24));
+        seconds = seconds % (3600 * 24);
+        var hours = Math.floor(seconds / 3600);
+        if (hours < 10) {
+          hours = "0" + hours;
+        }
+        seconds = seconds % 3600;
+        var minutes = Math.floor(seconds / 60);
+        if (minutes < 10) {
+          minutes = "0" + minutes;
+        }
+        seconds = seconds % 60;
+        if (seconds < 10) {
+          seconds = "0" + seconds;
+        }
+        var result = "<span class=\"digit\">" + days + "</span> 天 <span class=\"digit\">" + hours + "</span> 时 <span class=\"digit\">" + minutes + "</span> 分 <span class=\"digit\">" + seconds + "</span> 秒..."; 
+        $("#elapseClock").html(result);
+      }
+    });
+    </script>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=492092111&auto=1&height=66"></iframe>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/tororo.model.json"},"display":{"position":"right","width":200,"height":500},"mobile":{"show":false,"scale":0.5},"log":false});</script><script>(function(w,d, s, id) {w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = 'https://cdn.webpushr.com/app.min.js';fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('init','BLzjXkgCEG292DKDKnGWGR_gfKQ5HzeTAJukzYrtevVOpKWcHReuRH9VVppZk1kAkexTMB6WPAeb9t84QCYMsiU'');</script></body>
+
+</html>

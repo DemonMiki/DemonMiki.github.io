@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mikiblog.ink/7.html</loc>
-    <lastmod>2020-09-04</lastmod>
+    <lastmod>2020-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://mikiblog.ink/1.html</loc>
+    <lastmod>2020-10-25</lastmod>
   </url>
   <url>
     <loc>https://mikiblog.ink/5.html</loc>
@@ -10,10 +14,6 @@
   </url>
   <url>
     <loc>https://mikiblog.ink/6.html</loc>
-    <lastmod>2020-08-25</lastmod>
-  </url>
-  <url>
-    <loc>https://mikiblog.ink/1.html</loc>
     <lastmod>2020-08-25</lastmod>
   </url>
   <url>

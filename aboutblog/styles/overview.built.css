@@ -1,0 +1,30 @@
+html[lang=zh-CN].ac-ls-visible #ac-gn-placeholder {
+    height:114px
+}
+
+@media only screen and (max-width: 1023px) {
+    html[lang=zh-CN].ac-ls-visible #ac-gn-placeholder {
+        height:114px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html[lang=zh-CN].ac-ls-visible #ac-gn-placeholder {
+        height:183px
+    }
+}
+html[lang=zh-CN].ac-ls-visible #ac-globalnav {
+    top: 70px
+}
+
+@media only screen and (max-width: 1023px) {
+    html[lang=zh-CN].ac-ls-visible #ac-globalnav {
+       top: 70px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html[lang=zh-CN].ac-ls-visible #ac-globalnav {
+        top: 135px
+    }
+}

@@ -1,0 +1,109 @@
+/* WEB FONT 2015.11.10 */
+html[lang=zh-CN] .puncuation { letter-spacing: -0.3em; }
+
+html[lang=zh-CN] .icon-play:before, 
+html[lang=zh-CN] .icon-play:after,
+html[lang=zh-CN] .more::after, 
+html[lang=zh-CN] .more .icon-htc { top: -1.5px; }
+
+html[lang=zh-CN] .more.myriad::after, 
+html[lang=zh-CN] .more.myriad .icon-htc { top: 0px; }
+
+html[lang=zh-CN] .centeralign { padding-left: 0.7em; }
+@media only screen and (max-width: 735px) { html[lang=zh-CN] .centeralign { padding-left: 0; } }
+@media only screen and (max-width: 735px) and (max-device-width: 768px) { html[lang=zh-CN] .centeralign { padding-left: 0; } }
+
+html[lang=zh-CN] body{font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+html[lang=zh-CN] h1, 
+html[lang=zh-CN] h2, 
+html[lang=zh-CN] h3, 
+html[lang=zh-CN] h4,
+html[lang=zh-CN] .localnav-link, 
+html[lang=zh-CN] .button-buynow, 
+html[lang=zh-CN] .button-compact,
+html[lang=zh-CN] .intro,  
+html[lang=zh-CN] .hero-headline,
+html[lang=zh-CN] .section-headline,
+html[lang=zh-CN] .subsection-headline,
+html[lang=zh-CN] .subsection-subheadline,
+html[lang=zh-CN] #ac-localnav, 
+html[lang=zh-CN] #ac-localnav select, 
+html[lang=zh-CN] #ac-localnav button,
+html[lang=zh-CN] #ac-localnav .ac-ln-button,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-info-copy,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-hero-title,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-info-title,
+html[lang=zh-CN] #ac-globalfooter a.ac-gf-block .ac-gf-block-link,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-sosumi p, 
+html[lang=zh-CN] #ac-globalfooter .ac-gf-sosumi li,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-info-caption,
+html[lang=zh-CN] #ac-globalfooter, 
+html[lang=zh-CN] #ac-globalfooter select,
+html[lang=zh-CN] #ac-globalfooter button,
+html[lang=zh-CN] span.badge-half,
+html[lang=zh-CN] span.badge-small {
+   font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+
+
+html[lang=zh-CN] #ac-globalfooter .ac-gf-more::after, 
+html[lang=zh-CN] #ac-globalfooter .ac-gf-more .icon-htc{top:-1px;}
+
+/* badge */
+
+html[lang=zh-CN] span.badge-half.myriad,
+html[lang=zh-CN] span.badge-small.myriad{font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+html[lang=zh-CN] .badge-small{font-size: 15px;}
+@media only screen and (max-width: 735px) { html[lang=zh-CN] .badge-small{font-size: 12px;}}
+
+html[lang=zh-CN] span.badge-half{ font-size: 0.3em;}
+html[lang=zh-CN] span.badge-half.myriad{ font-size: 0.5em;}
+
+/* <br> 在不同 viewport 的 换行 Show & Hide Start */
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {html[lang=zh-CN] br.hide-for-small {display: none}}
+@media only screen and (max-width: 1024px) {html[lang=zh-CN] br.hide-for-medium {display: none}}
+html[lang=zh-CN] br.hide-for-large {display: none}
+@media only screen and (max-width: 1024px) {html[lang=zh-CN] br.hide-for-large {display: block}}
+
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {html[lang=zh-CN] br.show-for-small {display: block}}
+@media only screen and (max-width: 320px) and (max-device-width: 375px) {html[lang=zh-CN] br.hide-for-xsmall {display: none}}
+@media only screen and (max-width: 1024px) {html[lang=zh-CN] br.show-for-medium {display: block}}
+
+html[lang=zh-CN] br.show-for-large {display: block}
+html[lang=zh-CN] br.show-only-for-small {display: none}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {html[lang=zh-CN] br.show-only-for-small {display: block}}
+
+html[lang=zh-CN] br.show-only-for-medium {display: none}
+@media only screen and (max-width: 1024px) {html[lang=zh-CN] br.show-only-for-medium {display: block}}
+@media only screen and (max-width: 1068px) {html[lang=zh-CN] br.show-only-for-medium {display: block}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {html[lang=zh-CN] br.show-only-for-medium {display: none}}
+
+html[lang=zh-CN] br.show-only-for-large {display: block}
+@media only screen and (max-width: 1024px) {html[lang=zh-CN] br.show-only-for-large {display: none}}
+@media only screen and (max-width: 1068px) {html[lang=zh-CN] br.show-only-for-large {display: none}}
+@media only screen and (max-width: 735px) and (max-device-width: 768px) {html[lang=zh-CN] br.show-only-for-large {display: none}}
+
+br.show-only-for-xsmall {display: none}
+@media only screen and (max-width: 320px) and (max-device-width: 375px) {html[lang=zh-CN] br.show-only-for-xsmall {display: block}}
+
+
+html[lang=zh-CN] br.small-hide {display: none}
+html[lang=zh-CN] br.small-show {display: block}
+
+@media only screen and (min-width: 736px) {html[lang=zh-CN] br.medium-hide {display: none}html[lang=zh-CN] br.medium-show {display: block}}
+@media only screen and (min-width: 1069px) {html[lang=zh-CN] br.large-hide {display: none}html[lang=zh-CN] br.large-show {display: block}}
+@media only screen and (min-width: 1442px) {html[lang=zh-CN] br.xlarge-hide {display: none}html[lang=zh-CN] br.xlarge-show {display: block}}
+
+
+/* <br> 在不同 viewport 的 换行 Show & Hide End*/
+
+
+.adv-wrapper .adv-wrapper-text {
+	color: #a8a8aa;
+    font-size: 12px;
+    font-family: "HanHei SC", PingHei, "PingFang SC", STHeitiSC-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+

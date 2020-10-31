@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mikiblog.ink/7.html</loc>
-    <lastmod>2020-10-25</lastmod>
-  </url>
-  <url>
-    <loc>https://mikiblog.ink/1.html</loc>
-    <lastmod>2020-10-25</lastmod>
-  </url>
-  <url>
     <loc>https://mikiblog.ink/5.html</loc>
-    <lastmod>2020-08-25</lastmod>
-  </url>
-  <url>
-    <loc>https://mikiblog.ink/6.html</loc>
-    <lastmod>2020-08-25</lastmod>
+    <lastmod>2020-10-31</lastmod>
   </url>
   <url>
     <loc>https://mikiblog.ink/4.html</loc>
-    <lastmod>2020-08-25</lastmod>
+    <lastmod>2020-10-31</lastmod>
   </url>
   <url>
-    <loc>https://mikiblog.ink/2.html</loc>
-    <lastmod>2020-07-29</lastmod>
+    <loc>https://mikiblog.ink/1.html</loc>
+    <lastmod>2020-10-31</lastmod>
   </url>
   <url>
     <loc>https://mikiblog.ink/3.html</loc>
-    <lastmod>2020-07-29</lastmod>
+    <lastmod>2020-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://mikiblog.ink/2.html</loc>
+    <lastmod>2020-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://mikiblog.ink/6.html</loc>
+    <lastmod>2020-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://mikiblog.ink/8.html</loc>
+    <lastmod>2020-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://mikiblog.ink/9.html</loc>
+    <lastmod>2020-10-31</lastmod>
   </url>
 </urlset> 
